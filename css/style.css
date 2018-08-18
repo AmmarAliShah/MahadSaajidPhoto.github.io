@@ -10,7 +10,7 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 20px;
-  background: #f0f0f0;
+  background: white;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -275,11 +275,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   header {
-    padding: 2em 0;
   }
 }
 header .fh5co-navbar-brand {
@@ -768,4 +766,24 @@ input[type="text"] {
 .logo {
   width: 300px;
   text-align: center;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+#nav li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+#nav a {
+ color: black;
+}
+
+#nav a:hover {
+  color: #FA7E0A;
+  text-decoration: none;
 }
